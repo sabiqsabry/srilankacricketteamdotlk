@@ -1,0 +1,672 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SMASH</title>
+		<link rel="stylesheet" href="../css/home.css" />
+		<link rel="icon" href="../images/favicon.ico" sizes="16x16">
+	</head>
+
+	<body id="body">
+		<!-- Nav bar -->
+		<nav class="home__navBody">
+			<div class="home__navLogo">
+				<!-- logo -->
+				<img src="../images/logo.png" alt="logo" />
+			</div>
+
+			<div class="home__navButtons">
+				<!-- buttons -->
+				<a class="active" href="home.html">HOME</a>
+				<a href="news.html">NEWS</a>
+				<a href="matches.html">MATCHES</a>
+				<a href="points.html">POINTS</a>
+				<a href="teams.html">TEAMS</a>
+			</div>
+
+			<div class="home__navInput">
+				<!-- search input -->
+				<input type="text" placeholder=" Search" />
+				<div>
+					<img src="../images/search.png" alt="" />
+				</div>
+			</div>
+		</nav>
+
+		<!-- Carousel banner ---------------------------------------------------------------- -->
+		<!-- Slideshow container -->
+		<div class="home__carouselBannerContainer">
+			<div>
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+						<img src="../images/slide1.jpg" style="width: 100%" />
+					</div>
+
+					<div class="mySlides fade">
+						<img src="../images/slide2.jpg" style="width: 100%" />
+					</div>
+
+					<div class="mySlides fade">
+						<img src="../images/slide3.jpg" style="width: 100%" />
+					</div>
+
+					<div class="mySlides fade">
+						<img src="https://cricketique.files.wordpress.com/2018/09/angelo-1.jpg" style="width: 100%" />
+					</div>
+
+					<div class="mySlides fade">
+						<img
+							src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/06/22/839582-839461-21afp-afp1hp9nj.jpg"
+							style="width: 100%"
+						/>
+					</div>
+
+					<div class="mySlides fade">
+						<img
+							src="https://e0.365dm.com/20/02/768x432/skysports-wanindu-hasaranga_4927425.jpg?20200222124930"
+							style="width: 100%"
+						/>
+					</div>
+
+					<div class="mySlides fade">
+						<img
+							src="https://www.crictracker.com/wp-content/uploads/2020/02/Avishka-Fernando-and-Kusal-Mendis-1.jpg"
+							style="width: 100%"
+						/>
+					</div>
+
+					<!-- Next and previous buttons -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br />
+
+				<!-- The dots/circles -->
+				<div style="text-align: center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+				</div>
+			</div>
+
+			<div class="home__carouselCaptain">
+				<img src="https://www.cricket.com.au/-/media/Players/Men/International/Sri%20Lanka/Lasith-Malinga-CWC19.ashx" />
+			</div>
+		</div>
+
+		<!-- ----------------------------------------------------------------------------------------------->
+
+		<!-- table points 2020 -->
+		<center>
+			<div class="home__table-background">
+				<table class="home__table-points">
+					<tr>
+						<th class="home__table-points-firstData">Pos</th>
+						<th>Team</th>
+						<th>Match</th>
+						<th>Won</th>
+						<th>Lost</th>
+						<th>Tied</th>
+						<th>N/R</th>
+						<th>Net RR</th>
+						<th>For</th>
+						<th>Against</th>
+						<th>Pts</th>
+						<th class="home__table-points-lastData">Last 5</th>
+					</tr>
+
+					<tr>
+						<td class="home__table-points-firstData">01</td>
+						<td>CKR</td>
+						<td>3</td>
+						<td>2</td>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+						<td>7</td>
+						<td>7</td>
+						<td>5</td>
+						<td>6</td>
+						<td class="home__table-points-lastData">❌✔❌</td>
+					</tr>
+
+					<tr>
+						<td class="home__table-points-firstData">02</td>
+						<td>GFF</td>
+						<td>4</td>
+						<td>3</td>
+						<td>6</td>
+						<td>5</td>
+						<td>5</td>
+						<td>4</td>
+						<td>2</td>
+						<td>1</td>
+						<td>9</td>
+						<td class="home__table-points-lastData">✔✔✔❌</td>
+					</tr>
+
+					<tr>
+						<td class="home__table-points-firstData">03</td>
+						<td>KSK</td>
+						<td>2</td>
+						<td>1</td>
+						<td>5</td>
+						<td>7</td>
+						<td>8</td>
+						<td>9</td>
+						<td>1</td>
+						<td>5</td>
+						<td>7</td>
+						<td class="home__table-points-lastData">❌❌</td>
+					</tr>
+
+					<tr>
+						<td class="home__table-points-firstData">04</td>
+						<td>GSL</td>
+						<td>4</td>
+						<td>2</td>
+						<td>6</td>
+						<td>4</td>
+						<td>1</td>
+						<td>9</td>
+						<td>8</td>
+						<td>4</td>
+						<td>6</td>
+						<td class="home__table-points-lastData">❌✔❌✔</td>
+					</tr>
+
+					<tr>
+						<td class="home__table-points-firstData">05</td>
+						<td>JE</td>
+						<td>2</td>
+						<td>1</td>
+						<td>9</td>
+						<td>7</td>
+						<td>5</td>
+						<td>3</td>
+						<td>2</td>
+						<td>1</td>
+						<td>5</td>
+						<td class="home__table-points-lastData">✔✔</td>
+					</tr>
+				</table>
+				<img src="../images/arrowDown.png" />
+			</div>
+		</center>
+
+		<br />
+		<br />
+
+		<!-- watch live -->
+		<center>
+			<div class="home__watchLive">
+				<iframe width="1100" height="500" src="https://www.youtube.com/embed/2zrigdFHsF8" frameborder="0"> </iframe>
+			</div>
+		</center>
+
+		<br />
+		<br />
+
+		<!-- match highlights -->
+
+		<div class="home__playerStats" style="overflow-x: auto">
+			<div class="home__playerHighlights_title">MATCH HIGHLIGHTS</div>
+			<table>
+				<tr>
+					<td>
+						<div class="home__playerHighlights_slider-box">
+							<div class="home__playerHighlightsSingle">
+								<img
+									class="video"
+									src="https://i.ytimg.com/vi/ApwQcEJlhXg/maxresdefault.jpg"
+								/>
+								<br />
+								<br />
+								<div class="video-info">
+									<p><a target="_blank" href="https://youtu.be/ApwQcEJlhXg">South Africa vs Sri Lanka - 1st T20 - SL Innings Highlights</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerHighlightsSingle">
+								<img
+									class="video"
+									src="https://i.ytimg.com/vi/ZCMkDzveNZU/maxresdefault.jpg"
+								/>
+								<br />
+								<br />
+								<div class="video-info">
+									<p><a target="_blank" href="https://youtu.be/ZCMkDzveNZU">Sri Lanka beat South Africa by 3 wickets</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerHighlightsSingle">
+								<img
+									class="video"
+									src="https://i.ytimg.com/vi/DFFhYX128GY/maxresdefault.jpg"
+								/>
+								<br />
+								<br />
+								<div class="video-info">
+									<p><a target="_blank" href="https://youtu.be/DFFhYX128GY">Sri Lanka beat England by 219 runs - 5th ODI Highlights</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerHighlightsSingle">
+								<img
+									class="video"
+									src="https://i.ytimg.com/vi/oOJJslVQkRg/maxresdefault.jpg"
+								/>
+								<br />
+								<br />
+								<div class="video-info">
+									<p><a target="_blank" href="https://youtu.be/oOJJslVQkRg">Sri Lanka complete whitewash | Sri Lanka vs Bangladesh 3rd ODI - Match Highlights									</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerHighlightsSingle">
+								<img
+									class="video"
+									src="https://i.ytimg.com/vi/ZCMkDzveNZU/maxresdefault.jpg"
+								/>
+								<br />
+								<br />
+								<div class="video-info">
+									<p><a target="_blank" href="https://youtu.be/ZCMkDzveNZU">Sri Lanka beat South Africa by 3 wickets</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerHighlightsSingle">
+								<img
+									class="video"
+									src="https://i.ytimg.com/vi/_WLjlowNbT8/maxresdefault.jpg"
+								/>
+								<br />
+								<br />
+								<div class="video-info">
+									<p><a target="_blank" href="https://youtu.be/ZCMkDzveNZU">Sri Lanka complete whitewash | Sri Lanka vs Bangladesh 3rd ODI - Match Highlights
+									</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerHighlightsSingle">
+								<img
+									class="video"
+									src="https://i.ytimg.com/vi/ZCMkDzveNZU/maxresdefault.jpg"
+								/>
+								<br />
+								<br />
+								<div class="video-info">
+									<p><a target="_blank" href="https://youtu.be/_WLjlowNbT8">South Africa vs Sri Lanka - 2nd T20 - SA Innings Highlights
+									</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerHighlightsSingle">
+								<img
+									class="video"
+									src="https://images.indianexpress.com/2019/03/sa-vs-sl-m.jpg"
+								/>
+								<br />
+								<br />
+								<div class="video-info">
+									<p><a target="_blank" href="https://youtu.be/Ayc0Tysx7D4">South Africa vs Sri Lanka 2nd ODI Highlights: South Africa win by 113 runs</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerHighlightsSingle">
+								<img
+									class="video"
+									src="https://i.ytimg.com/vi/QOg8DUMySys/maxresdefault.jpg"
+								/>
+								<br />
+								<br />
+								<div class="video-info">
+									<p><a target="_blank" href="https://youtu.be/ZCMkDzveNZU">South Africa vs Sri Lanka - 2nd T20 - SL Innings Highlights
+									</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerHighlightsSingle">
+								<img
+									class="video"
+									src="https://i.ytimg.com/vi/HEbwv4vyRDE/sddefault.jpg"
+								/>
+								<br />
+								<br />
+								<div class="video-info">
+									<p><a target="_blank" href="https://youtu.be/HEbwv4vyRDE">Highlights: 2nd ODI at Pallekele – Pakistan in Sri Lanka 2015
+									</a></p>
+								</div>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!--end highlight -->
+		<br><br>
+
+
+		<!-- players stats -->
+		<div class="home__playerStats" style="overflow-x: auto">
+			<div class="home__playerStats_title">PLAYER STATISTICS</div>
+			<table>
+				<tr>
+					<td>
+						<div class="home__playerStats_slider-box">
+							<div class="home__playerStatsSingle">
+								<a href="blank" href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">
+									<img
+										class="person-img"
+										src="https://www.cricket.com.au/-/media/Players/Men/International/Sri%20Lanka/Lasith-Malinga-CWC19.ashx"
+									/>
+								</a>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a target="_blank" href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Lasith Malinga</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://resources.pulse.icc-cricket.com/players/284/3084.png"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Avishka Fernando</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://resources.pulse.icc-cricket.com/players/champions-trophy-2017/284/690.png"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Isuru Udana</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://www.cricket.com.au/-/media/Players/Men/International/Sri%20Lanka/Dimuth-Karunaratne-CWC19.ashx"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Dimuth Karunaratne</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://resources.pulse.icc-cricket.com/players/284/217.png"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Angelo Mathews</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://resources.pulse.icc-cricket.com/players/284/215.png"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Thisara Perera</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://www.cricket.com.au/-/media/Players/Men/International/Sri%20Lanka/Dhananjaya-de-Silva-CWC19.ashx"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Dhananjaya de Silva</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://resources.pulse.icc-cricket.com/players/284/1670.png"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Kusal Mendis</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://www.cricket.com.au/-/media/Players/Men/International/Sri%20Lanka/Kusal-Perera-CWC19.ashx"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Kusal Perera</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://resources.pulse.icc-cricket.com/players/284/502.png"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Lahiru Thirimanne</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://resources.pulse.icc-cricket.com/players/284/993.png"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Suranga Lakmal</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://www.cricket.com.au/-/media/Players/Men/International/Sri%20Lanka/T20%201920/Kasun-Rajitha-1920.ashx"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Kasun Rajitha</a></p>
+								</div>
+							</div>
+
+							<div class="home__playerStatsSingle">
+								<img
+									class="person-img"
+									src="https://resources.pulse.icc-cricket.com/players/champions-trophy-2017/284/503.png"
+								/>
+								<div class="flip-card-back">
+									<div class="flip-card-back-overlay">
+										Test Debut - cap - 99
+										<br />
+										ODI Debut - cap - 123
+										<br />
+										T20I Debut - cap - 8
+										<br />
+									</div>
+								</div>
+								<br><br><br><br>
+								<br>
+								<div class="person-info">
+									<p><a href="https://www.cricbuzz.com/profiles/111/lasith-malinga#!#profile">Jeevan Mendis</a></p>
+								</div>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- footer -->
+		<footer class="home__footer">
+			<div class="home__footerBtn">
+				<button><a href="home.html">HOME</a></button>
+					<button><a href="news.html">NEWS</a></button>
+					<button><a href="matches.html">MATCHES</a></button>
+					<button><a href="points.html">POINTS</a></button>
+					<button><a href="teams.html">TEAMS</a></button>
+			</div>
+
+			<div class="home__footerDescription">
+				<span>	Sri Lanka Cricket as formally known now, was first registered with Ministry of Sports on 30th June 1975 as a national sports body. It was initially called Board of </span>
+				<span>Cricket for Sri Lanka (BCCSL) until it came to be named as Sri Lanka Cricket (SLC) in 2003. Sri Lanka Cricket has been the stamp of authority on local cricketing map </span>
+				<span>	under the mandate of Ministry of Sports and is focused on upholding the cricketing heritage of the country.</span>
+				
+				<!-- <br> -->
+				<p>Copyright © NASH-ML 2020 All Rights Reserved ❤️</p>
+			</div>
+		</footer>
+
+		<!-- scripts -->
+		<script src="../js/home.js"></script>
+	</body>
+</html>
